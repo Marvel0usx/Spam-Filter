@@ -54,7 +54,7 @@ https://trec.nist.gov/data/spam.html
 - Flask host on firebase:
 - Chrome extenstion
 
-
-
-
-
+## Contribute to this repo
+- comment with `[dev]` for development updates;
+- comment with `[debug]` for debug fix;
+- comment with `[doc]` for documentation.
