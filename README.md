@@ -22,6 +22,12 @@
 
 ### Data
 
+#### Resources
+
+https://trec.nist.gov/data/spam.html
+
+#### Procedure
+
 - [ ] Gather spam emails from either dataset/scraping
 - [ ] Date cleansing
   - Goal: text -> NLP -> score -> binary $\in \{True, False\}$
