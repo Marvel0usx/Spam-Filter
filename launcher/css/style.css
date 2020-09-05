@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    --data-front-color: #faf9f9;
+    --data-back-color: #555b6e;
+    --data-minor-color: #bee3db;
+}
+
+body {
+    color: var(--data-front-color) !important;
+    background-color: var(--data-back-color) !important;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.status-tabs {
+    display: flex;
+    flex-flow: row nowrap;
+    outline-width: 2px;
+}
+
+.icon {
+    width: 1.5em;
+    height: auto;
+    max-height: 1.5empx;
+    margin-right: 0.5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.tab {
+    margin-right: 0.2em;
+    width: 30%;
+    border: 2px solid var(--data-minor-color);
+    padding: 0.7em 1em;
+}
+
+li.tab:last-child {
+    border: none;
+}
+
+.email > .icon {
+    position: relative;
+    top: 50%;
+}
+
+.title {
+    display: flex;
+    flex-flow: row;
+}
+
+span.counts {
+    font-size: 2em;
+}
+
+.email {
+    border: 2px solid var(--data-minor-color);
+    margin: 0.5em 0;
+    width: 90%;
+    padding: 0.5em;
+    text-justify: newspaper;
+}
+
+h3 {
+    margin: 0.5em 0 0.5em 0;
+}
